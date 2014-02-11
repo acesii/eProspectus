@@ -1,0 +1,10 @@
+package eprospectus
+
+class PublishController {
+
+  def index() { 
+    println("Publish Controller");
+    println(params)
+    println("The user searched for ${params.q} ${params['q']}")
+  }
+}

@@ -1,0 +1,10 @@
+package eprospectus
+
+class Subject {
+
+    String subjCode
+    String subjName
+
+    static constraints = {
+    }
+}

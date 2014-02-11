@@ -1,0 +1,10 @@
+package eprospectus
+
+class CourseSubject {
+
+    Course course
+    Subject subject
+
+    static constraints = {
+    }
+}
